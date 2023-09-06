@@ -1,0 +1,26 @@
+
+#imag{
+    display: grid;
+}
+.images{
+    border: 2px solid black;
+    grid-template-columns: 1000px;
+    background-color: bisque;
+    /* display: inline-flex;
+    width: 100%;
+    height: 500px; */
+    
+}
+
+footer{
+    border: 2px solid black;
+    grid-template-columns: 1000px;
+    grid-template-rows: auto;
+    background-color: gray;
+    margin-top: 10px;
+    
+}
+img{
+    border: 2px solid black;
+
+}
