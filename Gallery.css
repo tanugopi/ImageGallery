@@ -1,6 +1,8 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
 }
 
 
@@ -8,6 +10,7 @@ img {
     height: 100%;
     width: 100%;
     object-fit: fill;
+    border: solid black;
 
 }
 
@@ -15,47 +18,68 @@ img {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 2;
+    margin-bottom: 10px;
+  
 }
 #img2{
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
+    margin-bottom: 10px;
 }
 #img3{
     grid-column-start:5 ;
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end:2 ;
+    margin-bottom: 10px;
 }
 #img4{
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
-}#img5{
+}
+#img5{
     grid-column-start: 4;
     grid-column-end: 7;
     grid-row-start: 2;
     grid-row-end: 3;
-}#img6{
+}
+#img6{
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 3;
     grid-row-end: 4;
     max-width: 100%;
-    height: auto;
-}
+    height: 2000px;
+
+} 
 
 nav{
-    background-color:blue;
+    background-color:bisque;
     height: 100px;
     width: 100%;
+    border: solid black;
+    margin-bottom: 10px;
+    text-align: end;
+    font-size: 50px;
 }
 
 footer{
     height: 150px;
     width: 100%;
     background-color: gray;
+    border: solid black;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+ 
+img:hover{
+    transform: scale(1.1);
 }
